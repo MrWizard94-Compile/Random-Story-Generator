@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage / testing
+.coverage
+.mypy_cache/
+htmlcov/
+.pytest_cache/
+
+# Backup files
+*.bak
+*.bak_*
+*.bak2
+*.bak3
+
+# Temp files from run.py
+_tmp.py
+_run_out.txt
+_bugfix.py
+_bugfix_err.txt
+_bugfix_out.txt
+patch_*.py
+patch_*.txt
+syn*.txt
+syntax*.txt
+check*.py
+chk.py
+
+# Exports (regenerable)
+generated_stories/exports/
+
+# Local model/runtime data and generated stories are intentionally retained on-device.
+MyOllamaModels/
+generated_stories/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini

@@ -1,0 +1,6 @@
+requests
+matplotlib
+reportlab
+python-docx
+lxml
+Pillow
